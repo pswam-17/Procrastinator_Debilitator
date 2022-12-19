@@ -1,0 +1,19 @@
+{
+    "name": "Procrastinator Debilitator",
+    "version": "0.0.1",
+    "description": "A tool to block websites that are intrusive in a work/learning environment and remove distractions",
+    "icons": {
+        "128": "128.png",
+        "48": "48.png",
+        "32": "32.png",
+        "16": "16.png"
+    },
+    "background": {
+        "scripts": ["block.js"]
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "webRequest", "webRequestBlocking", "http://*/*", "https://*/*", "storage"
+    ],
+    "manifest_version": 2
+}
